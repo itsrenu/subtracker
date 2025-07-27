@@ -19,11 +19,7 @@ export default function AlertsPanel({ subscriptions }: AlertsPanelProps) {
   }, [subscriptions])
 
   const dismissAlert = (alertId: string) => {
-    setDismissedAlerts(prev => {
-      const newSet = new Set(prev)
-      newSet.add(alertId)
-      return newSet
-    })
+    setDismissedAlerts(prev => new Set([...prev, alertId]))
   }
 
   const visibleAlerts = alerts.filter(alert => !dismissedAlerts.has(alert.id))
