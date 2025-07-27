@@ -1,12 +1,6 @@
 # SubTracker - Smart Subscription Management
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/itsrenu/subtracker)
-
 SubTracker helps you track, manage, and optimize your subscriptions with smart cancellation alerts and usage tracking.
-
-## 🚀 Live Demo
-
-[Visit SubTracker →](https://subtracker.vercel.app)
 
 ## 🚀 Features
 
@@ -41,20 +35,22 @@ Based on Reddit research showing users lose $273/year on unused subscriptions an
 
 ## 🚀 Quick Start
 
-1. Clone this repository
-2. Install dependencies: `npm install`
-3. Run development server: `npm run dev`
-4. Visit `http://localhost:3000`
+1. Visit the live demo: [SubTracker](https://your-deployment-url.vercel.app)
+2. Click "Start Free Trial" to see the dashboard
+3. Explore mock subscription data and smart alerts
+4. Try upgrading to Pro to see premium features
 
-## 🚀 Deploy to Vercel
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/itsrenu/subtracker)
-
-Or manually:
+## 🔧 Development
 
 ```bash
-npm install -g vercel
-vercel
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Build for production
+npm run build
 ```
 
 ## 📈 Revenue Model
